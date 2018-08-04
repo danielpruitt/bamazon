@@ -12,7 +12,7 @@ var connection = sql.createConnection({
 
 connection.connect(function (err) {
     if (err) throw err;
-    console.log(connection.threadId)
+    
     queryDB();
 });
 
@@ -31,7 +31,7 @@ function buy() {
     inquirer.prompt({
         name: "chosenItem",
         type: "input",
-        message: "\nWhich item would you like to buy?"
+        message: "Which item would you like to buy?"
     }).then(function (answer) {
         console.log(answer.chosenItem);
         var wantToBuy = answer.chosenItem;
