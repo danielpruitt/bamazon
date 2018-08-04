@@ -10,4 +10,4 @@ How it works:
 
 Below is a video of Bamazon is use. 
 
-![image](Images/BamazonNodeSql.webm);
+![Watch](Images/BamazonNodeSql.webm);
