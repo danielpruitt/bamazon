@@ -17,13 +17,13 @@ This is the inital response upon opening Bamazon, the user will then user the ID
 ![image](images/initial.JPG);
 
 Following the selection, user is prompted if they are sure they want that product. If yes, Bamazon continues to ask for the quantity.
-![image](../images/purchased.JPG)
+![image](Images/purchased.JPG)
 
 The Stock Quantity of the purchase is decremented from the purchase and when Bamazon is loaded another time the new Stock Quantity is updated. 
-![image](images/decrementQuantityNotsSure.JPG)
+![image](Images/decrementQuantityNotsSure.JPG)
 
 If ther is not enough stock for the selection the user will be prompted and asked to make a smaller/another selection.
-![image](NotEnoughStock.JPG)
+![image](Images/NotEnoughStock.JPG)
 
 
 
@@ -39,19 +39,19 @@ Below is a link to see BamazonManager in use.
 https://drive.google.com/file/d/1yHQP3r0SVQKKeKg0qRBxSjAf6BycdGFP/view
 
 BamazonManger Started:
-![image](images/BMstart.jpg);
+![image](Images/BMstart.jpg);
 
 Products listed:
-![image](images/BMproducts.jpg);
+![image](Images/BMproducts.jpg);
 
 New product added:
-![image](images/BMadded.jpg);
+![image](Images/BMadded.jpg);
 
 Low inventory:
-![image](images/BMlow.jpg);
+![image](Images/BMlow.jpg);
 
 Inventory added:
-![image](images/BMinventAdded.jpg);
+![image](Images/BMinventAdded.jpg);
 
 
 
