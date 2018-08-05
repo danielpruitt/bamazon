@@ -39,19 +39,19 @@ Below is a link to see BamazonManager in use.
 https://drive.google.com/file/d/1yHQP3r0SVQKKeKg0qRBxSjAf6BycdGFP/view
 
 BamazonManger Started:
-![image](Images/BMstart.jpg);
+![image](Images/BMstart.JPG);
 
 Products listed:
-![image](Images/BMproducts.jpg);
+![image](Images/BMproducts.JPG);
 
 New product added:
-![image](Images/BMadded.jpg);
+![image](Images/BMadded.JPG);
 
 Low inventory:
-![image](Images/BMlow.jpg);
+![image](Images/BMlow.JPG);
 
 Inventory added:
-![image](Images/BMinventAdded.jpg);
+![image](Images/BMinventAdded.JPG);
 
 
 
