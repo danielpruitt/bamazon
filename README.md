@@ -14,10 +14,10 @@ https://drive.google.com/file/d/19yUr-_anmPtLrnFIQGbhT2-whWylWzMB/view
 
 Images:
 This is the inital response upon opening Bamazon, the user will then user the ID to make a selction.
-![Image](initial.JPG);
+![Image](../initial.JPG);
 
 Following the selection, user is prompted if they are sure they want that product. If yes, Bamazon continues to ask for the quantity.
-![Image](/purchased.JPG)
+![Image](../images/purchased.JPG)
 
 The Stock Quantity of the purchase is decremented from the purchase and when Bamazon is loaded another time the new Stock Quantity is updated. 
 ![Image](./images/decrementQuantityNotsSure.JPG)
