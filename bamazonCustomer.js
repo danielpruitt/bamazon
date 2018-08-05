@@ -27,6 +27,7 @@ function queryDB() {
 }
 //starts the buying feature
 function buy() {
+    
     //this prompts the user as to which item to buy, the item ID is what is used for the rest of the function to know what it is pulled from the database
     inquirer.prompt({
         name: "chosenItem",
@@ -41,6 +42,7 @@ function buy() {
 
             for (var i = 0; i < res.length; i++) {
                 console.log("\n Item ID: " + res[i].item_id + " | Product Name: " + res[i].product_name + " | Price: " + res[i].price + "\n");
+                
                 //this prompt asks if the user is sure they want to buy this item
                 inquirer.prompt({
                     name: "purchase",
@@ -60,6 +62,7 @@ function buy() {
                                 console.log("We have " + res[i].product_name + " in stock. There is " + res[i].stock_quantity + " left in stock.");
                             };
                         };
+                        
                         // this prompt allows the quantity to be selected 
                         inquirer.prompt({
                             name: "quantityAmount",
@@ -79,7 +82,7 @@ function buy() {
                                     } else 
                                     var originalCost = res[i].price;
                                     var totalPrice = originalCost * wantedQuantity;
-                                    console.log("That will cost: " + totalPrice);
+                                    console.log("That will cost: $" + totalPrice);
                                     function update() {
                                         var update = connection.query("UPDATE products SET ? WHERE ?",
                                             [
