@@ -1,7 +1,9 @@
+//variables bringing in node packages
 var sql = require('mysql');
 var inquirer = require('inquirer');
 var retrieve = ("SELECT * FROM products");
 
+//variable to create the connection to the database
 var connection = sql.createConnection({
     host: "localhost",
     port: 3306,
@@ -55,6 +57,7 @@ function buy() {
                         console.log(answer.purchase);
                         console.log(wantToBuy);
                         for (var i = 0; i < res.length; i++) {
+                            
                             // if the user selects "no", the function will run again so they can select an item they do want
                             if (answer.purchase === "No"){
                                 return buy();

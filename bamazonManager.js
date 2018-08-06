@@ -1,5 +1,8 @@
+//variables bringing in the node packages
 var mysql = require("mysql");
 var inquirer = require("inquirer");
+
+//variable creating the connection to the database
 var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
