@@ -7,7 +7,8 @@ var connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "bronco45",
+    // add your own password below
+    password: "",
     database: "bamazon_db"
 });
 var retrieve = ("SELECT * FROM products");
